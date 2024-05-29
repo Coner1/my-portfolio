@@ -1,0 +1,20 @@
+/* styles.css */
+/* File name: styles.css, Student Name: Your Name, StudentID: YourID, Date: Your Date */
+
+nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav img {
+    height: 50px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Additional CSS for styling the pages */
+  
