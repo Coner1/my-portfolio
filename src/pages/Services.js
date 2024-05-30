@@ -18,6 +18,7 @@ const Services = () => (
           <h2>{service.service}</h2>
           <img src={service.img} alt={service.service} width={50}/>
         </div>
+        
       ))}
     </div>
   </div>
