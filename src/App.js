@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import './styles/styles.css';
 
 const App = () => (
@@ -19,7 +20,9 @@ const App = () => (
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
+    
   </Router>
 );
 

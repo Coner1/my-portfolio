@@ -1,9 +1,12 @@
 import React from 'react';
-
+import responsive from "../assets/responsive.png";
+import devices from "../assets/devices.png";
+import mobile from "../assets/mobile-application.png";
 const services = [
-  { service: 'Web Development', img: 'path/to/webdev.jpg' },
-  { service: 'Mobile App Development', img: 'path/to/mobileapp.jpg' },
-  { service: 'General Programming', img: 'path/to/programming.jpg' },
+  // img create by smalllikeart
+  { service: 'Web Development', img: responsive},
+  { service: 'Mobile App Development', img: mobile },
+  { service: 'General Programming', img: devices },
 ];
 
 const Services = () => (
@@ -13,7 +16,7 @@ const Services = () => (
       {services.map((service, index) => (
         <div key={index} className="service">
           <h2>{service.service}</h2>
-          <img src={service.img} alt={service.service} />
+          <img src={service.img} alt={service.service} width={50}/>
         </div>
       ))}
     </div>
