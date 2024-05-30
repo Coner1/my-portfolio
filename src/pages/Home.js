@@ -1,3 +1,4 @@
+// Home.js - Kang Wang - 301345391 -2024/5/29
 import React from "react";
 
 const Home = () => (

@@ -1,3 +1,4 @@
+/* // App.js - Kang Wang - 301345391 -2024/5/29 */
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';

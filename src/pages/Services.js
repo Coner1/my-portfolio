@@ -1,3 +1,4 @@
+// Services.js - Kang Wang - 301345391 -2024/5/29
 import React from 'react';
 import responsive from "../assets/responsive.png";
 import devices from "../assets/devices.png";

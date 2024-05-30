@@ -1,3 +1,4 @@
+// About.js - Kang Wang - 301345391 -2024/5/29
 import React from 'react';
 import resume from '../assets/resume.pdf';
 import profilePicture from '../assets/profile-picture.jpg'; // Your profile picture
