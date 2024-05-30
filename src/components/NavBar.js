@@ -5,11 +5,11 @@ import logo from "../assets/logo.png"; // Your custom logo
 const NavBar = () => (
   <nav>
       <img src={logo} alt="Logo" />
-      <Link to="/">Home</Link>
-      <Link to="/about">About Me</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/services">Services</Link>
-      <Link to="/contact">Contact Me</Link>
+      <Link to="/my-portfolio">Home</Link>
+      <Link to="/my-portfolio/about">About Me</Link>
+      <Link to="/my-portfolio/projects">Projects</Link>
+      <Link to="/my-portfolio/services">Services</Link>
+      <Link to="/my-portfolio/contact">Contact Me</Link>
   </nav>
 );
 
