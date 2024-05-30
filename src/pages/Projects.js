@@ -7,15 +7,17 @@ const projects = [
 ];
 
 const Projects = () => (
-  <div>
+  <div className="container">
     <h1>Projects</h1>
-    {projects.map((project, index) => (
-      <div key={index}>
-        <h2>{project.title}</h2>
-        <img src={project.img} alt={project.title} />
-        <p>{project.description}</p>
-      </div>
-    ))}
+    <div className="projects">
+      {projects.map((project, index) => (
+        <div key={index} className="project">
+          <h2>{project.title}</h2>
+          <img src={project.img} alt={project.title} />
+          <p>{project.description}</p>
+        </div>
+      ))}
+    </div>
   </div>
 );
 

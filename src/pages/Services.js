@@ -7,14 +7,16 @@ const services = [
 ];
 
 const Services = () => (
-  <div>
+  <div className="container">
     <h1>Services</h1>
-    {services.map((service, index) => (
-      <div key={index}>
-        <h2>{service.service}</h2>
-        <img src={service.img} alt={service.service} />
-      </div>
-    ))}
+    <div className="services">
+      {services.map((service, index) => (
+        <div key={index} className="service">
+          <h2>{service.service}</h2>
+          <img src={service.img} alt={service.service} />
+        </div>
+      ))}
+    </div>
   </div>
 );
 
